@@ -27,6 +27,7 @@ namespace Fashison_eCommerce.Areas.Buyer.Controllers
             cart_Item.Quantity = 1;
             Cart_ItemViewModel cim = new Cart_ItemViewModel();
             cim.cart_Item = cart_Item;
+            int a = 1;
 
             Cart_ItemClient CIC = new Cart_ItemClient();
             CIC.Create(cim.cart_Item);
