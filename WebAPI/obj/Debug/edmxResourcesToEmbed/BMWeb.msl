@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="BMWebModelStoreContainer" CdmEntityContainer="DB_A6A231_DAQLTMDTEntities1">
+  <EntityContainerMapping StorageEntityContainer="DB_A72896_bmWebModelStoreContainer" CdmEntityContainer="DB_A6A231_DAQLTMDTEntities">
     <EntitySetMapping Name="Accounts">
-      <EntityTypeMapping TypeName="BMWebModel.Account">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.Account">
         <MappingFragment StoreEntitySet="Account">
           <ScalarProperty Name="AccountId" ColumnName="AccountId" />
           <ScalarProperty Name="Email" ColumnName="Email" />
@@ -21,7 +21,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Addresses">
-      <EntityTypeMapping TypeName="BMWebModel.Address">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.Address">
         <MappingFragment StoreEntitySet="Address">
           <ScalarProperty Name="Address_ID" ColumnName="Address_ID" />
           <ScalarProperty Name="User_ID" ColumnName="User_ID" />
@@ -33,7 +33,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Authorizes">
-      <EntityTypeMapping TypeName="BMWebModel.Authorize">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.Authorize">
         <MappingFragment StoreEntitySet="Authorize">
           <ScalarProperty Name="RoleID" ColumnName="RoleID" />
           <ScalarProperty Name="PermissionID" ColumnName="PermissionID" />
@@ -42,7 +42,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Brands">
-      <EntityTypeMapping TypeName="BMWebModel.Brand">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.Brand">
         <MappingFragment StoreEntitySet="Brand">
           <ScalarProperty Name="BrandID" ColumnName="BrandID" />
           <ScalarProperty Name="BrandName" ColumnName="BrandName" />
@@ -50,7 +50,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Carts">
-      <EntityTypeMapping TypeName="BMWebModel.Cart">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.Cart">
         <MappingFragment StoreEntitySet="Cart">
           <ScalarProperty Name="Cart_ID" ColumnName="Cart_ID" />
           <ScalarProperty Name="UserID" ColumnName="UserID" />
@@ -58,7 +58,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Cart_Item">
-      <EntityTypeMapping TypeName="BMWebModel.Cart_Item">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.Cart_Item">
         <MappingFragment StoreEntitySet="Cart_Item">
           <ScalarProperty Name="ItemID" ColumnName="ItemID" />
           <ScalarProperty Name="Quantity" ColumnName="Quantity" />
@@ -67,7 +67,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Categories">
-      <EntityTypeMapping TypeName="BMWebModel.Category">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.Category">
         <MappingFragment StoreEntitySet="Category">
           <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
           <ScalarProperty Name="Name" ColumnName="Name" />
@@ -75,7 +75,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Images">
-      <EntityTypeMapping TypeName="BMWebModel.Image">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.Image">
         <MappingFragment StoreEntitySet="Image">
           <ScalarProperty Name="ImageId" ColumnName="ImageId" />
           <ScalarProperty Name="ProductId" ColumnName="ProductId" />
@@ -85,7 +85,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Main_Type">
-      <EntityTypeMapping TypeName="BMWebModel.Main_Type">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.Main_Type">
         <MappingFragment StoreEntitySet="Main_Type">
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="Name" ColumnName="Name" />
@@ -93,7 +93,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Order_Items">
-      <EntityTypeMapping TypeName="BMWebModel.Order_Items">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.Order_Items">
         <MappingFragment StoreEntitySet="Order_Items">
           <ScalarProperty Name="Order_ID" ColumnName="Order_ID" />
           <ScalarProperty Name="Item_ID" ColumnName="Item_ID" />
@@ -106,7 +106,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Order_Tracking">
-      <EntityTypeMapping TypeName="BMWebModel.Order_Tracking">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.Order_Tracking">
         <MappingFragment StoreEntitySet="Order_Tracking">
           <ScalarProperty Name="Track_ID" ColumnName="Track_ID" />
           <ScalarProperty Name="Order_ID" ColumnName="Order_ID" />
@@ -118,7 +118,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Orders">
-      <EntityTypeMapping TypeName="BMWebModel.Order">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.Order">
         <MappingFragment StoreEntitySet="Orders">
           <ScalarProperty Name="Order_ID" ColumnName="Order_ID" />
           <ScalarProperty Name="User_ID" ColumnName="User_ID" />
@@ -134,7 +134,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Permissions">
-      <EntityTypeMapping TypeName="BMWebModel.Permission">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.Permission">
         <MappingFragment StoreEntitySet="Permission">
           <ScalarProperty Name="PermissionID" ColumnName="PermissionID" />
           <ScalarProperty Name="Note" ColumnName="Note" />
@@ -142,7 +142,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Products">
-      <EntityTypeMapping TypeName="BMWebModel.Product">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.Product">
         <MappingFragment StoreEntitySet="Product">
           <ScalarProperty Name="Product_ID" ColumnName="Product_ID" />
           <ScalarProperty Name="Name" ColumnName="Name" />
@@ -158,7 +158,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Product_Type">
-      <EntityTypeMapping TypeName="BMWebModel.Product_Type">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.Product_Type">
         <MappingFragment StoreEntitySet="Product_Type">
           <ScalarProperty Name="TypeID" ColumnName="TypeID" />
           <ScalarProperty Name="Name" ColumnName="Name" />
@@ -167,7 +167,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="PurchaseOrders">
-      <EntityTypeMapping TypeName="BMWebModel.PurchaseOrder">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.PurchaseOrder">
         <MappingFragment StoreEntitySet="PurchaseOrder">
           <ScalarProperty Name="PurchaseOrderId" ColumnName="PurchaseOrderId" />
           <ScalarProperty Name="AccountId" ColumnName="AccountId" />
@@ -182,7 +182,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="PurchaseOrderDetails">
-      <EntityTypeMapping TypeName="BMWebModel.PurchaseOrderDetail">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.PurchaseOrderDetail">
         <MappingFragment StoreEntitySet="PurchaseOrderDetail">
           <ScalarProperty Name="PurchaseOrderDetailId" ColumnName="PurchaseOrderDetailId" />
           <ScalarProperty Name="PurchaseOrderId" ColumnName="PurchaseOrderId" />
@@ -195,7 +195,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Ratings">
-      <EntityTypeMapping TypeName="BMWebModel.Rating">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.Rating">
         <MappingFragment StoreEntitySet="Rating">
           <ScalarProperty Name="ProductID" ColumnName="ProductID" />
           <ScalarProperty Name="UserID" ColumnName="UserID" />
@@ -205,7 +205,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Roles">
-      <EntityTypeMapping TypeName="BMWebModel.Role">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.Role">
         <MappingFragment StoreEntitySet="Role">
           <ScalarProperty Name="RoleID" ColumnName="RoleID" />
           <ScalarProperty Name="Rolename" ColumnName="Rolename" />
@@ -213,7 +213,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Shippers">
-      <EntityTypeMapping TypeName="BMWebModel.Shipper">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.Shipper">
         <MappingFragment StoreEntitySet="Shipper">
           <ScalarProperty Name="PurchaseOrderId" ColumnName="PurchaseOrderId" />
           <ScalarProperty Name="ShipperId" ColumnName="ShipperId" />
@@ -222,7 +222,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Stores">
-      <EntityTypeMapping TypeName="BMWebModel.Store">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.Store">
         <MappingFragment StoreEntitySet="Store">
           <ScalarProperty Name="Store_ID" ColumnName="Store_ID" />
           <ScalarProperty Name="Address" ColumnName="Address" />
@@ -235,7 +235,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="SubCategories">
-      <EntityTypeMapping TypeName="BMWebModel.SubCategory">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.SubCategory">
         <MappingFragment StoreEntitySet="SubCategory">
           <ScalarProperty Name="SubCategoryId" ColumnName="SubCategoryId" />
           <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
@@ -244,7 +244,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="sysdiagrams">
-      <EntityTypeMapping TypeName="BMWebModel.sysdiagram">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.sysdiagram">
         <MappingFragment StoreEntitySet="sysdiagrams">
           <ScalarProperty Name="name" ColumnName="name" />
           <ScalarProperty Name="principal_id" ColumnName="principal_id" />
@@ -255,7 +255,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Users">
-      <EntityTypeMapping TypeName="BMWebModel.User">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.User">
         <MappingFragment StoreEntitySet="Users">
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Username" ColumnName="Username" />
@@ -272,7 +272,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="AccountRoles">
-      <EntityTypeMapping TypeName="BMWebModel.AccountRole">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.AccountRole">
         <MappingFragment StoreEntitySet="AccountRole">
           <ScalarProperty Name="Email" ColumnName="Email" />
           <ScalarProperty Name="Role" ColumnName="Role" />
@@ -280,7 +280,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Buyer_LoadAllProduct">
-      <EntityTypeMapping TypeName="BMWebModel.Buyer_LoadAllProduct">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.Buyer_LoadAllProduct">
         <MappingFragment StoreEntitySet="Buyer_LoadAllProduct">
           <ScalarProperty Name="Product_ID" ColumnName="Product_ID" />
           <ScalarProperty Name="Name" ColumnName="Name" />
@@ -295,7 +295,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Buyer_LoadProduct">
-      <EntityTypeMapping TypeName="BMWebModel.Buyer_LoadProduct">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.Buyer_LoadProduct">
         <MappingFragment StoreEntitySet="Buyer_LoadProduct">
           <ScalarProperty Name="Product_ID" ColumnName="Product_ID" />
           <ScalarProperty Name="Name" ColumnName="Name" />
@@ -310,7 +310,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Order_All">
-      <EntityTypeMapping TypeName="BMWebModel.Order_All">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.Order_All">
         <MappingFragment StoreEntitySet="Order_All">
           <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="Order_ID" ColumnName="Order_ID" />
@@ -324,7 +324,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Order_Cancel">
-      <EntityTypeMapping TypeName="BMWebModel.Order_Cancel">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.Order_Cancel">
         <MappingFragment StoreEntitySet="Order_Cancel">
           <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="Order_ID" ColumnName="Order_ID" />
@@ -338,7 +338,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Order_Confirm">
-      <EntityTypeMapping TypeName="BMWebModel.Order_Confirm">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.Order_Confirm">
         <MappingFragment StoreEntitySet="Order_Confirm">
           <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="Order_ID" ColumnName="Order_ID" />
@@ -352,7 +352,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Order_Delivered">
-      <EntityTypeMapping TypeName="BMWebModel.Order_Delivered">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.Order_Delivered">
         <MappingFragment StoreEntitySet="Order_Delivered">
           <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="Order_ID" ColumnName="Order_ID" />
@@ -366,7 +366,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Order_Delivering">
-      <EntityTypeMapping TypeName="BMWebModel.Order_Delivering">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.Order_Delivering">
         <MappingFragment StoreEntitySet="Order_Delivering">
           <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="Order_ID" ColumnName="Order_ID" />
@@ -380,7 +380,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Order_Receive">
-      <EntityTypeMapping TypeName="BMWebModel.Order_Receive">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.Order_Receive">
         <MappingFragment StoreEntitySet="Order_Receive">
           <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="Order_ID" ColumnName="Order_ID" />
@@ -394,7 +394,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="OV_OrderView">
-      <EntityTypeMapping TypeName="BMWebModel.OV_OrderView">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.OV_OrderView">
         <MappingFragment StoreEntitySet="OV_OrderView">
           <ScalarProperty Name="PurchaseOrderId" ColumnName="PurchaseOrderId" />
           <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
@@ -406,7 +406,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="SV_initOrderList">
-      <EntityTypeMapping TypeName="BMWebModel.SV_initOrderList">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.SV_initOrderList">
         <MappingFragment StoreEntitySet="SV_initOrderList">
           <ScalarProperty Name="PurchaseOrderId" ColumnName="PurchaseOrderId" />
           <ScalarProperty Name="Email" ColumnName="Email" />
@@ -418,7 +418,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="SV_pickupList">
-      <EntityTypeMapping TypeName="BMWebModel.SV_pickupList">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.SV_pickupList">
         <MappingFragment StoreEntitySet="SV_pickupList">
           <ScalarProperty Name="PurchaseOrderId" ColumnName="PurchaseOrderId" />
           <ScalarProperty Name="ShipperId" ColumnName="ShipperId" />
@@ -431,7 +431,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="SV_shipperList">
-      <EntityTypeMapping TypeName="BMWebModel.SV_shipperList">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.SV_shipperList">
         <MappingFragment StoreEntitySet="SV_shipperList">
           <ScalarProperty Name="AccountId" ColumnName="AccountId" />
           <ScalarProperty Name="Email" ColumnName="Email" />
@@ -444,7 +444,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="SV_shippingList">
-      <EntityTypeMapping TypeName="BMWebModel.SV_shippingList">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.SV_shippingList">
         <MappingFragment StoreEntitySet="SV_shippingList">
           <ScalarProperty Name="PurchaseOrderId" ColumnName="PurchaseOrderId" />
           <ScalarProperty Name="ShipperId" ColumnName="ShipperId" />
@@ -457,7 +457,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="view_Buyer_Order_Items">
-      <EntityTypeMapping TypeName="BMWebModel.view_Buyer_Order_Items">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.view_Buyer_Order_Items">
         <MappingFragment StoreEntitySet="view_Buyer_Order_Items">
           <ScalarProperty Name="Order_ID" ColumnName="Order_ID" />
           <ScalarProperty Name="Item_ID" ColumnName="Item_ID" />
@@ -470,7 +470,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="view_Buyer_Orders">
-      <EntityTypeMapping TypeName="BMWebModel.view_Buyer_Orders">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.view_Buyer_Orders">
         <MappingFragment StoreEntitySet="view_Buyer_Orders">
           <ScalarProperty Name="Order_ID" ColumnName="Order_ID" />
           <ScalarProperty Name="User_ID" ColumnName="User_ID" />
@@ -486,7 +486,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="view_MainType">
-      <EntityTypeMapping TypeName="BMWebModel.view_MainType">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.view_MainType">
         <MappingFragment StoreEntitySet="view_MainType">
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="Name" ColumnName="Name" />
@@ -494,7 +494,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="view_Product">
-      <EntityTypeMapping TypeName="BMWebModel.view_Product">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.view_Product">
         <MappingFragment StoreEntitySet="view_Product">
           <ScalarProperty Name="TypeID" ColumnName="TypeID" />
           <ScalarProperty Name="Name" ColumnName="Name" />
@@ -503,7 +503,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="view_Products">
-      <EntityTypeMapping TypeName="BMWebModel.view_Products">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.view_Products">
         <MappingFragment StoreEntitySet="view_Products">
           <ScalarProperty Name="Product_ID" ColumnName="Product_ID" />
           <ScalarProperty Name="Name" ColumnName="Name" />
@@ -518,7 +518,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="view_Shop">
-      <EntityTypeMapping TypeName="BMWebModel.view_Shop">
+      <EntityTypeMapping TypeName="DB_A72896_bmWebModel.view_Shop">
         <MappingFragment StoreEntitySet="view_Shop">
           <ScalarProperty Name="Store_ID" ColumnName="Store_ID" />
           <ScalarProperty Name="Address" ColumnName="Address" />
@@ -530,23 +530,23 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <FunctionImportMapping FunctionName="BMWebModel.Store.CheckAdminLogin" FunctionImportName="CheckAdminLogin">
+    <FunctionImportMapping FunctionName="DB_A72896_bmWebModel.Store.CheckAdminLogin" FunctionImportName="CheckAdminLogin">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="BMWebModel.CheckAdminLogin_Result">
+        <ComplexTypeMapping TypeName="DB_A72896_bmWebModel.CheckAdminLogin_Result">
           <ScalarProperty Name="RESULT" ColumnName="RESULT" />
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionName="BMWebModel.Store.CountNV" FunctionImportName="CountNV">
+    <FunctionImportMapping FunctionName="DB_A72896_bmWebModel.Store.CountNV" FunctionImportName="CountNV">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="BMWebModel.CountNV_Result">
+        <ComplexTypeMapping TypeName="DB_A72896_bmWebModel.CountNV_Result">
           <ScalarProperty Name="soluongNV" ColumnName="soluongNV" />
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionName="BMWebModel.Store.fn_getLatestStatus" FunctionImportName="fn_getLatestStatus">
+    <FunctionImportMapping FunctionName="DB_A72896_bmWebModel.Store.fn_getLatestStatus" FunctionImportName="fn_getLatestStatus">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="BMWebModel.fn_getLatestStatus_Result">
+        <ComplexTypeMapping TypeName="DB_A72896_bmWebModel.fn_getLatestStatus_Result">
           <ScalarProperty Name="Track_ID" ColumnName="Track_ID" />
           <ScalarProperty Name="Order_ID" ColumnName="Order_ID" />
           <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
@@ -556,9 +556,9 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionName="BMWebModel.Store.fn_getShipper" FunctionImportName="fn_getShipper">
+    <FunctionImportMapping FunctionName="DB_A72896_bmWebModel.Store.fn_getShipper" FunctionImportName="fn_getShipper">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="BMWebModel.fn_getShipper_Result">
+        <ComplexTypeMapping TypeName="DB_A72896_bmWebModel.fn_getShipper_Result">
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Username" ColumnName="Username" />
           <ScalarProperty Name="Email" ColumnName="Email" />
@@ -573,9 +573,9 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionName="BMWebModel.Store.Load_User_Cart" FunctionImportName="Load_User_Cart">
+    <FunctionImportMapping FunctionName="DB_A72896_bmWebModel.Store.Load_User_Cart" FunctionImportName="Load_User_Cart">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="BMWebModel.Load_User_Cart_Result">
+        <ComplexTypeMapping TypeName="DB_A72896_bmWebModel.Load_User_Cart_Result">
           <ScalarProperty Name="Pictures" ColumnName="Pictures" />
           <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="Decription" ColumnName="Decription" />
@@ -586,10 +586,10 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="ChangeStatus" FunctionName="BMWebModel.Store.ChangeStatus" />
-    <FunctionImportMapping FunctionImportName="DetailOrder" FunctionName="BMWebModel.Store.DetailOrder">
+    <FunctionImportMapping FunctionImportName="ChangeStatus" FunctionName="DB_A72896_bmWebModel.Store.ChangeStatus" />
+    <FunctionImportMapping FunctionImportName="DetailOrder" FunctionName="DB_A72896_bmWebModel.Store.DetailOrder">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="BMWebModel.DetailOrder_Result">
+        <ComplexTypeMapping TypeName="DB_A72896_bmWebModel.DetailOrder_Result">
           <ScalarProperty Name="Order_ID" ColumnName="Order_ID" />
           <ScalarProperty Name="full_name" ColumnName="full_name" />
           <ScalarProperty Name="address" ColumnName="address" />
@@ -601,9 +601,9 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="FindProducts" FunctionName="BMWebModel.Store.FindProducts">
+    <FunctionImportMapping FunctionImportName="FindProducts" FunctionName="DB_A72896_bmWebModel.Store.FindProducts">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="BMWebModel.FindProducts_Result">
+        <ComplexTypeMapping TypeName="DB_A72896_bmWebModel.FindProducts_Result">
           <ScalarProperty Name="Product_ID" ColumnName="Product_ID" />
           <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="Price" ColumnName="Price" />
@@ -617,9 +617,9 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="get_ProductByID" FunctionName="BMWebModel.Store.get_ProductByID">
+    <FunctionImportMapping FunctionImportName="get_ProductByID" FunctionName="DB_A72896_bmWebModel.Store.get_ProductByID">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="BMWebModel.get_ProductByID_Result">
+        <ComplexTypeMapping TypeName="DB_A72896_bmWebModel.get_ProductByID_Result">
           <ScalarProperty Name="Product_ID" ColumnName="Product_ID" />
           <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="Price" ColumnName="Price" />
@@ -633,10 +633,10 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="GetIdFromEmail" FunctionName="BMWebModel.Store.GetIdFromEmail" />
-    <FunctionImportMapping FunctionImportName="getOrders_Of_User" FunctionName="BMWebModel.Store.getOrders_Of_User">
+    <FunctionImportMapping FunctionImportName="GetIdFromEmail" FunctionName="DB_A72896_bmWebModel.Store.GetIdFromEmail" />
+    <FunctionImportMapping FunctionImportName="getOrders_Of_User" FunctionName="DB_A72896_bmWebModel.Store.getOrders_Of_User">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="BMWebModel.getOrders_Of_User_Result">
+        <ComplexTypeMapping TypeName="DB_A72896_bmWebModel.getOrders_Of_User_Result">
           <ScalarProperty Name="Order_ID" ColumnName="Order_ID" />
           <ScalarProperty Name="User_ID" ColumnName="User_ID" />
           <ScalarProperty Name="Store_ID" ColumnName="Store_ID" />
@@ -650,9 +650,9 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="getProducts" FunctionName="BMWebModel.Store.getProducts">
+    <FunctionImportMapping FunctionImportName="getProducts" FunctionName="DB_A72896_bmWebModel.Store.getProducts">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="BMWebModel.getProducts_Result">
+        <ComplexTypeMapping TypeName="DB_A72896_bmWebModel.getProducts_Result">
           <ScalarProperty Name="Product_ID" ColumnName="Product_ID" />
           <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="Price" ColumnName="Price" />
@@ -666,10 +666,10 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="ListOrderDetailUser" FunctionName="BMWebModel.Store.ListOrderDetailUser" />
-    <FunctionImportMapping FunctionImportName="ListOrdersUser" FunctionName="BMWebModel.Store.ListOrdersUser">
+    <FunctionImportMapping FunctionImportName="ListOrderDetailUser" FunctionName="DB_A72896_bmWebModel.Store.ListOrderDetailUser" />
+    <FunctionImportMapping FunctionImportName="ListOrdersUser" FunctionName="DB_A72896_bmWebModel.Store.ListOrdersUser">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="BMWebModel.ListOrdersUser_Result">
+        <ComplexTypeMapping TypeName="DB_A72896_bmWebModel.ListOrdersUser_Result">
           <ScalarProperty Name="Order_ID" ColumnName="Order_ID" />
           <ScalarProperty Name="ShopName" ColumnName="ShopName" />
           <ScalarProperty Name="delivery" ColumnName="delivery" />
@@ -680,11 +680,11 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="OSP_CapNhanDonHang" FunctionName="BMWebModel.Store.OSP_CapNhanDonHang" />
-    <FunctionImportMapping FunctionImportName="OSP_CapNhatChiTiet" FunctionName="BMWebModel.Store.OSP_CapNhatChiTiet" />
-    <FunctionImportMapping FunctionImportName="proc_getShipper" FunctionName="BMWebModel.Store.proc_getShipper">
+    <FunctionImportMapping FunctionImportName="OSP_CapNhanDonHang" FunctionName="DB_A72896_bmWebModel.Store.OSP_CapNhanDonHang" />
+    <FunctionImportMapping FunctionImportName="OSP_CapNhatChiTiet" FunctionName="DB_A72896_bmWebModel.Store.OSP_CapNhatChiTiet" />
+    <FunctionImportMapping FunctionImportName="proc_getShipper" FunctionName="DB_A72896_bmWebModel.Store.proc_getShipper">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="BMWebModel.proc_getShipper_Result">
+        <ComplexTypeMapping TypeName="DB_A72896_bmWebModel.proc_getShipper_Result">
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Username" ColumnName="Username" />
           <ScalarProperty Name="Email" ColumnName="Email" />
@@ -699,9 +699,9 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="ReportForAdmin" FunctionName="BMWebModel.Store.ReportForAdmin">
+    <FunctionImportMapping FunctionImportName="ReportForAdmin" FunctionName="DB_A72896_bmWebModel.Store.ReportForAdmin">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="BMWebModel.ReportForAdmin_Result">
+        <ComplexTypeMapping TypeName="DB_A72896_bmWebModel.ReportForAdmin_Result">
           <ScalarProperty Name="Total" ColumnName="Total" />
           <ScalarProperty Name="Orders" ColumnName="Orders" />
           <ScalarProperty Name="Users" ColumnName="Users" />
@@ -709,17 +709,17 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="ResetPassword" FunctionName="BMWebModel.Store.ResetPassword" />
-    <FunctionImportMapping FunctionImportName="sp_AccountChangePassword" FunctionName="BMWebModel.Store.sp_AccountChangePassword" />
-    <FunctionImportMapping FunctionImportName="sp_AccountResgister" FunctionName="BMWebModel.Store.sp_AccountResgister" />
-    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="BMWebModel.Store.sp_alterdiagram" />
-    <FunctionImportMapping FunctionImportName="sp_ConfirmProduct_Admin" FunctionName="BMWebModel.Store.sp_ConfirmProduct_Admin" />
-    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="BMWebModel.Store.sp_creatediagram" />
-    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="BMWebModel.Store.sp_dropdiagram" />
-    <FunctionImportMapping FunctionImportName="sp_EditProfile" FunctionName="BMWebModel.Store.sp_EditProfile" />
-    <FunctionImportMapping FunctionImportName="sp_getAddressByID" FunctionName="BMWebModel.Store.sp_getAddressByID">
+    <FunctionImportMapping FunctionImportName="ResetPassword" FunctionName="DB_A72896_bmWebModel.Store.ResetPassword" />
+    <FunctionImportMapping FunctionImportName="sp_AccountChangePassword" FunctionName="DB_A72896_bmWebModel.Store.sp_AccountChangePassword" />
+    <FunctionImportMapping FunctionImportName="sp_AccountResgister" FunctionName="DB_A72896_bmWebModel.Store.sp_AccountResgister" />
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="DB_A72896_bmWebModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_ConfirmProduct_Admin" FunctionName="DB_A72896_bmWebModel.Store.sp_ConfirmProduct_Admin" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="DB_A72896_bmWebModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="DB_A72896_bmWebModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_EditProfile" FunctionName="DB_A72896_bmWebModel.Store.sp_EditProfile" />
+    <FunctionImportMapping FunctionImportName="sp_getAddressByID" FunctionName="DB_A72896_bmWebModel.Store.sp_getAddressByID">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="BMWebModel.sp_getAddressByID_Result">
+        <ComplexTypeMapping TypeName="DB_A72896_bmWebModel.sp_getAddressByID_Result">
           <ScalarProperty Name="Address_ID" ColumnName="Address_ID" />
           <ScalarProperty Name="User_ID" ColumnName="User_ID" />
           <ScalarProperty Name="full_name" ColumnName="full_name" />
@@ -729,9 +729,9 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="sp_GetCartItem" FunctionName="BMWebModel.Store.sp_GetCartItem">
+    <FunctionImportMapping FunctionImportName="sp_GetCartItem" FunctionName="DB_A72896_bmWebModel.Store.sp_GetCartItem">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="BMWebModel.sp_GetCartItem_Result">
+        <ComplexTypeMapping TypeName="DB_A72896_bmWebModel.sp_GetCartItem_Result">
           <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="Pictures" ColumnName="Pictures" />
           <ScalarProperty Name="Quantity" ColumnName="Quantity" />
@@ -739,9 +739,9 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="sp_getOrderDetail" FunctionName="BMWebModel.Store.sp_getOrderDetail">
+    <FunctionImportMapping FunctionImportName="sp_getOrderDetail" FunctionName="DB_A72896_bmWebModel.Store.sp_getOrderDetail">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="BMWebModel.sp_getOrderDetail_Result">
+        <ComplexTypeMapping TypeName="DB_A72896_bmWebModel.sp_getOrderDetail_Result">
           <ScalarProperty Name="Order_ID" ColumnName="Order_ID" />
           <ScalarProperty Name="Store_ID" ColumnName="Store_ID" />
           <ScalarProperty Name="ShopName" ColumnName="ShopName" />
@@ -761,9 +761,9 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="sp_getUserAddress" FunctionName="BMWebModel.Store.sp_getUserAddress">
+    <FunctionImportMapping FunctionImportName="sp_getUserAddress" FunctionName="DB_A72896_bmWebModel.Store.sp_getUserAddress">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="BMWebModel.sp_getUserAddress_Result">
+        <ComplexTypeMapping TypeName="DB_A72896_bmWebModel.sp_getUserAddress_Result">
           <ScalarProperty Name="Address_ID" ColumnName="Address_ID" />
           <ScalarProperty Name="User_ID" ColumnName="User_ID" />
           <ScalarProperty Name="full_name" ColumnName="full_name" />
@@ -773,12 +773,29 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="BMWebModel.Store.sp_helpdiagramdefinition" />
-    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="BMWebModel.Store.sp_helpdiagrams" />
-    <FunctionImportMapping FunctionImportName="sp_InsUserFb" FunctionName="BMWebModel.Store.sp_InsUserFb" />
-    <FunctionImportMapping FunctionImportName="sp_ListProductOfShop" FunctionName="BMWebModel.Store.sp_ListProductOfShop">
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="DB_A72896_bmWebModel.Store.sp_helpdiagramdefinition">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="BMWebModel.sp_ListProductOfShop_Result">
+        <ComplexTypeMapping TypeName="DB_A72896_bmWebModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="DB_A72896_bmWebModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DB_A72896_bmWebModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_InsUserFb" FunctionName="DB_A72896_bmWebModel.Store.sp_InsUserFb" />
+    <FunctionImportMapping FunctionImportName="sp_ListProductOfShop" FunctionName="DB_A72896_bmWebModel.Store.sp_ListProductOfShop">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DB_A72896_bmWebModel.sp_ListProductOfShop_Result">
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="ProductName" ColumnName="ProductName" />
           <ScalarProperty Name="Price" ColumnName="Price" />
@@ -790,9 +807,9 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="sp_loadUserCart" FunctionName="BMWebModel.Store.sp_loadUserCart">
+    <FunctionImportMapping FunctionImportName="sp_loadUserCart" FunctionName="DB_A72896_bmWebModel.Store.sp_loadUserCart">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="BMWebModel.sp_loadUserCart_Result">
+        <ComplexTypeMapping TypeName="DB_A72896_bmWebModel.sp_loadUserCart_Result">
           <ScalarProperty Name="Pictures" ColumnName="Pictures" />
           <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="Decription" ColumnName="Decription" />
@@ -803,9 +820,9 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="sp_Login" FunctionName="BMWebModel.Store.sp_Login">
+    <FunctionImportMapping FunctionImportName="sp_Login" FunctionName="DB_A72896_bmWebModel.Store.sp_Login">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="BMWebModel.sp_Login_Result">
+        <ComplexTypeMapping TypeName="DB_A72896_bmWebModel.sp_Login_Result">
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Username" ColumnName="Username" />
           <ScalarProperty Name="Email" ColumnName="Email" />
@@ -820,9 +837,9 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="sp_ProductByStore" FunctionName="BMWebModel.Store.sp_ProductByStore">
+    <FunctionImportMapping FunctionImportName="sp_ProductByStore" FunctionName="DB_A72896_bmWebModel.Store.sp_ProductByStore">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="BMWebModel.sp_ProductByStore_Result">
+        <ComplexTypeMapping TypeName="DB_A72896_bmWebModel.sp_ProductByStore_Result">
           <ScalarProperty Name="Product_ID" ColumnName="Product_ID" />
           <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="Price" ColumnName="Price" />
@@ -836,9 +853,9 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="sp_ProductByType" FunctionName="BMWebModel.Store.sp_ProductByType">
+    <FunctionImportMapping FunctionImportName="sp_ProductByType" FunctionName="DB_A72896_bmWebModel.Store.sp_ProductByType">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="BMWebModel.sp_ProductByType_Result">
+        <ComplexTypeMapping TypeName="DB_A72896_bmWebModel.sp_ProductByType_Result">
           <ScalarProperty Name="Product_ID" ColumnName="Product_ID" />
           <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="Price" ColumnName="Price" />
@@ -852,10 +869,10 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="BMWebModel.Store.sp_renamediagram" />
-    <FunctionImportMapping FunctionImportName="sp_searchProduct" FunctionName="BMWebModel.Store.sp_searchProduct">
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="DB_A72896_bmWebModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_searchProduct" FunctionName="DB_A72896_bmWebModel.Store.sp_searchProduct">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="BMWebModel.sp_searchProduct_Result">
+        <ComplexTypeMapping TypeName="DB_A72896_bmWebModel.sp_searchProduct_Result">
           <ScalarProperty Name="Product_ID" ColumnName="Product_ID" />
           <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="Price" ColumnName="Price" />
@@ -869,9 +886,9 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="sp_Shipper_Orders" FunctionName="BMWebModel.Store.sp_Shipper_Orders">
+    <FunctionImportMapping FunctionImportName="sp_Shipper_Orders" FunctionName="DB_A72896_bmWebModel.Store.sp_Shipper_Orders">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="BMWebModel.sp_Shipper_Orders_Result">
+        <ComplexTypeMapping TypeName="DB_A72896_bmWebModel.sp_Shipper_Orders_Result">
           <ScalarProperty Name="Track_ID" ColumnName="Track_ID" />
           <ScalarProperty Name="Order_ID" ColumnName="Order_ID" />
           <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
@@ -881,11 +898,11 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="BMWebModel.Store.sp_upgraddiagrams" />
-    <FunctionImportMapping FunctionImportName="Sp_User_Login" FunctionName="BMWebModel.Store.Sp_User_Login" />
-    <FunctionImportMapping FunctionImportName="sp_View_Orders" FunctionName="BMWebModel.Store.sp_View_Orders">
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="DB_A72896_bmWebModel.Store.sp_upgraddiagrams" />
+    <FunctionImportMapping FunctionImportName="Sp_User_Login" FunctionName="DB_A72896_bmWebModel.Store.Sp_User_Login" />
+    <FunctionImportMapping FunctionImportName="sp_View_Orders" FunctionName="DB_A72896_bmWebModel.Store.sp_View_Orders">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="BMWebModel.sp_View_Orders_Result">
+        <ComplexTypeMapping TypeName="DB_A72896_bmWebModel.sp_View_Orders_Result">
           <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="Order_ID" ColumnName="Order_ID" />
           <ScalarProperty Name="delivery" ColumnName="delivery" />
@@ -897,21 +914,8 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="USP_CapNhatUser" FunctionName="BMWebModel.Store.USP_CapNhatUser" />
-    <FunctionImportMapping FunctionImportName="USP_DangKy" FunctionName="BMWebModel.Store.USP_DangKy" />
-    <FunctionImportMapping FunctionImportName="USP_TaoUser" FunctionName="BMWebModel.Store.USP_TaoUser" />
-    <FunctionImportMapping FunctionImportName="sp_Load_Cart" FunctionName="BMWebModel.Store.sp_Load_Cart">
-      <ResultMapping>
-        <ComplexTypeMapping TypeName="BMWebModel.sp_Load_Cart_Result">
-          <ScalarProperty Name="Pictures" ColumnName="Pictures" />
-          <ScalarProperty Name="Name" ColumnName="Name" />
-          <ScalarProperty Name="Decription" ColumnName="Decription" />
-          <ScalarProperty Name="Price" ColumnName="Price" />
-          <ScalarProperty Name="Store_ID" ColumnName="Store_ID" />
-          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
-          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
-        </ComplexTypeMapping>
-      </ResultMapping>
-    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_CapNhatUser" FunctionName="DB_A72896_bmWebModel.Store.USP_CapNhatUser" />
+    <FunctionImportMapping FunctionImportName="USP_DangKy" FunctionName="DB_A72896_bmWebModel.Store.USP_DangKy" />
+    <FunctionImportMapping FunctionImportName="USP_TaoUser" FunctionName="DB_A72896_bmWebModel.Store.USP_TaoUser" />
   </EntityContainerMapping>
 </Mapping>

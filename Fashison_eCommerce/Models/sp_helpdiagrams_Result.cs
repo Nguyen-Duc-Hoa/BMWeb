@@ -7,18 +7,16 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebAPI
+namespace Fashison_eCommerce.Models
 {
     using System;
     
-    public partial class sp_Load_Cart_Result
+    public partial class sp_helpdiagrams_Result
     {
-        public string Pictures { get; set; }
+        public string Database { get; set; }
         public string Name { get; set; }
-        public string Decription { get; set; }
-        public float Price { get; set; }
-        public int Store_ID { get; set; }
-        public Nullable<int> Quantity { get; set; }
-        public int ItemID { get; set; }
+        public int ID { get; set; }
+        public string Owner { get; set; }
+        public int OwnerID { get; set; }
     }
 }

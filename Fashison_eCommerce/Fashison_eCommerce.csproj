@@ -378,6 +378,12 @@
     <Compile Include="Models\sp_getUserAddress_Result.cs">
       <DependentUpon>BMWeb.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>BMWeb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_helpdiagrams_Result.cs">
+      <DependentUpon>BMWeb.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\sp_ListProductOfShop_Result.cs">
       <DependentUpon>BMWeb.tt</DependentUpon>
     </Compile>

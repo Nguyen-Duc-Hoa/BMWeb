@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="BMWebModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+<Schema Namespace="DB_A72896_bmWebModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
   <EntityType Name="Account">
     <Key>
       <PropertyRef Name="AccountId" />
@@ -19,7 +19,7 @@
     <Property Name="coin" Type="int" />
   </EntityType>
   <!--Errors Found During Generation:
-warning 6002: The table/view 'BMWeb.dbo.AccountRole' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+warning 6002: The table/view 'DB_A72896_bmWeb.dbo.AccountRole' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="AccountRole">
     <Key>
       <PropertyRef Name="Email" />
@@ -261,7 +261,7 @@ warning 6002: The table/view 'BMWeb.dbo.AccountRole' does not have a primary key
     <Property Name="Avatar" Type="nvarchar" MaxLength="100" />
   </EntityType>
   <!--Errors Found During Generation:
-warning 6002: The table/view 'BMWeb.dbo.Buyer_LoadAllProduct' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+warning 6002: The table/view 'DB_A72896_bmWeb.dbo.Buyer_LoadAllProduct' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="Buyer_LoadAllProduct">
     <Key>
       <PropertyRef Name="Product_ID" />
@@ -284,7 +284,7 @@ warning 6002: The table/view 'BMWeb.dbo.Buyer_LoadAllProduct' does not have a pr
     <Property Name="BrandID" Type="int" />
   </EntityType>
   <!--Errors Found During Generation:
-warning 6002: The table/view 'BMWeb.dbo.Buyer_LoadProduct' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+warning 6002: The table/view 'DB_A72896_bmWeb.dbo.Buyer_LoadProduct' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="Buyer_LoadProduct">
     <Key>
       <PropertyRef Name="Product_ID" />
@@ -307,7 +307,7 @@ warning 6002: The table/view 'BMWeb.dbo.Buyer_LoadProduct' does not have a prima
     <Property Name="BrandID" Type="int" />
   </EntityType>
   <!--Errors Found During Generation:
-warning 6002: The table/view 'BMWeb.dbo.Order_All' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+warning 6002: The table/view 'DB_A72896_bmWeb.dbo.Order_All' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="Order_All">
     <Key>
       <PropertyRef Name="Order_ID" />
@@ -322,7 +322,7 @@ warning 6002: The table/view 'BMWeb.dbo.Order_All' does not have a primary key d
     <Property Name="Total_Order" Type="float" />
   </EntityType>
   <!--Errors Found During Generation:
-warning 6002: The table/view 'BMWeb.dbo.Order_Cancel' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+warning 6002: The table/view 'DB_A72896_bmWeb.dbo.Order_Cancel' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="Order_Cancel">
     <Key>
       <PropertyRef Name="Order_ID" />
@@ -337,7 +337,7 @@ warning 6002: The table/view 'BMWeb.dbo.Order_Cancel' does not have a primary ke
     <Property Name="Total_Order" Type="float" />
   </EntityType>
   <!--Errors Found During Generation:
-warning 6002: The table/view 'BMWeb.dbo.Order_Confirm' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+warning 6002: The table/view 'DB_A72896_bmWeb.dbo.Order_Confirm' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="Order_Confirm">
     <Key>
       <PropertyRef Name="Order_ID" />
@@ -352,7 +352,7 @@ warning 6002: The table/view 'BMWeb.dbo.Order_Confirm' does not have a primary k
     <Property Name="Total_Order" Type="float" />
   </EntityType>
   <!--Errors Found During Generation:
-warning 6002: The table/view 'BMWeb.dbo.Order_Delivered' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+warning 6002: The table/view 'DB_A72896_bmWeb.dbo.Order_Delivered' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="Order_Delivered">
     <Key>
       <PropertyRef Name="Order_ID" />
@@ -367,7 +367,7 @@ warning 6002: The table/view 'BMWeb.dbo.Order_Delivered' does not have a primary
     <Property Name="Total_Order" Type="float" />
   </EntityType>
   <!--Errors Found During Generation:
-warning 6002: The table/view 'BMWeb.dbo.Order_Delivering' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+warning 6002: The table/view 'DB_A72896_bmWeb.dbo.Order_Delivering' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="Order_Delivering">
     <Key>
       <PropertyRef Name="Order_ID" />
@@ -382,7 +382,7 @@ warning 6002: The table/view 'BMWeb.dbo.Order_Delivering' does not have a primar
     <Property Name="Total_Order" Type="float" />
   </EntityType>
   <!--Errors Found During Generation:
-warning 6002: The table/view 'BMWeb.dbo.Order_Receive' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+warning 6002: The table/view 'DB_A72896_bmWeb.dbo.Order_Receive' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="Order_Receive">
     <Key>
       <PropertyRef Name="Order_ID" />
@@ -397,7 +397,7 @@ warning 6002: The table/view 'BMWeb.dbo.Order_Receive' does not have a primary k
     <Property Name="Total_Order" Type="float" />
   </EntityType>
   <!--Errors Found During Generation:
-warning 6002: The table/view 'BMWeb.dbo.OV_OrderView' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+warning 6002: The table/view 'DB_A72896_bmWeb.dbo.OV_OrderView' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="OV_OrderView">
     <Key>
       <PropertyRef Name="PurchaseOrderId" />
@@ -413,7 +413,7 @@ warning 6002: The table/view 'BMWeb.dbo.OV_OrderView' does not have a primary ke
     <Property Name="Phone" Type="varchar(max)" />
   </EntityType>
   <!--Errors Found During Generation:
-warning 6002: The table/view 'BMWeb.dbo.SV_initOrderList' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+warning 6002: The table/view 'DB_A72896_bmWeb.dbo.SV_initOrderList' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="SV_initOrderList">
     <Key>
       <PropertyRef Name="PurchaseOrderId" />
@@ -429,7 +429,7 @@ warning 6002: The table/view 'BMWeb.dbo.SV_initOrderList' does not have a primar
     <Property Name="Status" Type="varchar" MaxLength="20" Nullable="false" />
   </EntityType>
   <!--Errors Found During Generation:
-warning 6002: The table/view 'BMWeb.dbo.SV_pickupList' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+warning 6002: The table/view 'DB_A72896_bmWeb.dbo.SV_pickupList' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="SV_pickupList">
     <Key>
       <PropertyRef Name="PurchaseOrderId" />
@@ -446,7 +446,7 @@ warning 6002: The table/view 'BMWeb.dbo.SV_pickupList' does not have a primary k
     <Property Name="Status" Type="varchar" MaxLength="50" />
   </EntityType>
   <!--Errors Found During Generation:
-warning 6002: The table/view 'BMWeb.dbo.SV_shipperList' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+warning 6002: The table/view 'DB_A72896_bmWeb.dbo.SV_shipperList' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="SV_shipperList">
     <Key>
       <PropertyRef Name="AccountId" />
@@ -466,7 +466,7 @@ warning 6002: The table/view 'BMWeb.dbo.SV_shipperList' does not have a primary 
     <Property Name="Gender" Type="varchar" MaxLength="1" Nullable="false" />
   </EntityType>
   <!--Errors Found During Generation:
-warning 6002: The table/view 'BMWeb.dbo.SV_shippingList' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+warning 6002: The table/view 'DB_A72896_bmWeb.dbo.SV_shippingList' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="SV_shippingList">
     <Key>
       <PropertyRef Name="PurchaseOrderId" />
@@ -483,7 +483,7 @@ warning 6002: The table/view 'BMWeb.dbo.SV_shippingList' does not have a primary
     <Property Name="Status" Type="varchar" MaxLength="50" />
   </EntityType>
   <!--Errors Found During Generation:
-warning 6002: The table/view 'BMWeb.dbo.view_Buyer_Order_Items' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+warning 6002: The table/view 'DB_A72896_bmWeb.dbo.view_Buyer_Order_Items' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="view_Buyer_Order_Items">
     <Key>
       <PropertyRef Name="Order_ID" />
@@ -498,7 +498,7 @@ warning 6002: The table/view 'BMWeb.dbo.view_Buyer_Order_Items' does not have a 
     <Property Name="status" Type="int" />
   </EntityType>
   <!--Errors Found During Generation:
-warning 6002: The table/view 'BMWeb.dbo.view_Buyer_Orders' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+warning 6002: The table/view 'DB_A72896_bmWeb.dbo.view_Buyer_Orders' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="view_Buyer_Orders">
     <Key>
       <PropertyRef Name="Order_ID" />
@@ -515,7 +515,7 @@ warning 6002: The table/view 'BMWeb.dbo.view_Buyer_Orders' does not have a prima
     <Property Name="Total_Order" Type="float" />
   </EntityType>
   <!--Errors Found During Generation:
-warning 6002: The table/view 'BMWeb.dbo.view_MainType' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+warning 6002: The table/view 'DB_A72896_bmWeb.dbo.view_MainType' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="view_MainType">
     <Key>
       <PropertyRef Name="ID" />
@@ -524,7 +524,7 @@ warning 6002: The table/view 'BMWeb.dbo.view_MainType' does not have a primary k
     <Property Name="Name" Type="nvarchar" MaxLength="50" />
   </EntityType>
   <!--Errors Found During Generation:
-warning 6002: The table/view 'BMWeb.dbo.view_Product' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+warning 6002: The table/view 'DB_A72896_bmWeb.dbo.view_Product' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="view_Product">
     <Key>
       <PropertyRef Name="TypeID" />
@@ -535,7 +535,7 @@ warning 6002: The table/view 'BMWeb.dbo.view_Product' does not have a primary ke
     <Property Name="MaintypeID" Type="int" />
   </EntityType>
   <!--Errors Found During Generation:
-warning 6002: The table/view 'BMWeb.dbo.view_Products' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+warning 6002: The table/view 'DB_A72896_bmWeb.dbo.view_Products' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="view_Products">
     <Key>
       <PropertyRef Name="Product_ID" />
@@ -558,7 +558,7 @@ warning 6002: The table/view 'BMWeb.dbo.view_Products' does not have a primary k
     <Property Name="BrandID" Type="int" />
   </EntityType>
   <!--Errors Found During Generation:
-warning 6002: The table/view 'BMWeb.dbo.view_Shop' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+warning 6002: The table/view 'DB_A72896_bmWeb.dbo.view_Shop' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="view_Shop">
     <Key>
       <PropertyRef Name="Store_ID" />
@@ -1067,9 +1067,6 @@ warning 6035: The relationship 'FK_EMAIL_ACCOUNT' has columns that are not part 
   <Function Name="sp_ListProductOfShop" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="id" Type="int" Mode="In" />
   </Function>
-  <Function Name="sp_Load_Cart" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
-    <Parameter Name="user_id" Type="int" Mode="In" />
-  </Function>
   <Function Name="sp_loadUserCart" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="user_id" Type="int" Mode="In" />
   </Function>
@@ -1136,7 +1133,7 @@ warning 6035: The relationship 'FK_EMAIL_ACCOUNT' has columns that are not part 
     <Parameter Name="DayOfBirth" Type="date" Mode="In" />
     <Parameter Name="Role" Type="varchar" Mode="In" />
   </Function>
-  <EntityContainer Name="BMWebModelStoreContainer">
+  <EntityContainer Name="DB_A72896_bmWebModelStoreContainer">
     <EntitySet Name="Account" EntityType="Self.Account" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Address" EntityType="Self.Address" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Authorize" EntityType="Self.Authorize" Schema="dbo" store:Type="Tables" />
