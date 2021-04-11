@@ -18,10 +18,10 @@ namespace WebAPI.Controllers
 
         // GET: api/Cart
 
-        public IQueryable<sp_Load_Cart_Result> GetCarts(int id)
-        {
-            return db.sp_Load_Cart(id);
-        }
+        //public IQueryable<sp_loadUserCart_Result> GetCarts(int id)
+        //{
+        //    return db.sp_loadUserCart_Result(id);
+        //}
 
     }
 }
